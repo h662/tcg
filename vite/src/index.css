@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply max-w-screen-sm mx-auto min-h-screen;
+  }
+
+  .nav-btn {
+    @apply w-1/5 flex justify-center items-center;
+  }
+}
